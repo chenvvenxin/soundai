@@ -9,7 +9,7 @@ import requests
 import tkinter as tk
 import tkinter.font as tkFont
 
-def getResponse(event):
+def getResponse(event=''):
     entry2.config(state=tk.NORMAL)
     entry2.delete(0, tk.END)
     ipt = str(entry1.get())
