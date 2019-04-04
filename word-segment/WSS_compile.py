@@ -7,10 +7,9 @@ Created on Wed Apr  3 15:13:30 2019
 
 import requests
 import tkinter as tk
-from html.parser import HTMLParser
 import tkinter.font as tkFont
 
-def getResponse():
+def getResponse(event=''):
     entry2.config(state=tk.NORMAL)
     entry2.delete(0, tk.END)
     ipt = str(entry1.get())
